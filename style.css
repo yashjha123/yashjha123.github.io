@@ -18,6 +18,7 @@ body{
 	background-color: var(--first);
 }
 .navbar{
+
 	box-shadow: var(--five);
 	z-index: 2000;
 	padding: 2px;
@@ -25,16 +26,19 @@ body{
 	top: 0;
 	left: 0;
 	width: calc(100%);
-	min-height: 20px;
+	height: 50px;
 	background-color: var(--second);
 	border-bottom: 2px var(--second) solid;
 }
 .list{
+	margin-right: 2px;
+	margin-left: 2px;
+	float: right;
 	display: inline-block;
 	font-weight: 300;
 	font-size: 20px;
 	padding: 10px;
-	min-height: 1%;
+	height: 30px;
 	width: fit-content;
 	background-color: var(--fifth);
 	color: white;
@@ -50,7 +54,7 @@ body{
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url('back.png')
+	background-image: url('video.gif')
 }
 .menu{
 	border-radius: 20px;
@@ -161,12 +165,13 @@ body{
 	background-color: var(--second);
 	padding-top: 20px;
 	width: calc(100% - 100px);
-	min-height: 100%;
+	min-height: 80%;
 }
 .pvideos{
 	box-shadow: var(--two);
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 49%;
 	height: 200px;
 	background-color: white;
@@ -227,4 +232,10 @@ body{
 #btn:hover{
 	background-color: var(--third);
 	color: black;
+}
+.end{
+	padding-top: 5em;
+	background-color: var(--third);
+	height: 100px;
+	text-align: center;
 }

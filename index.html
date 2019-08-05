@@ -13,20 +13,34 @@
 </head>
 <body>
 	<div class="navbar">
+		<div class="list" style="float: left; font-weight: 500;">
+			<img src='0120.png' height="30px">PTYRIX
+		</div>
+	<a href="#player">
 		<div class="list">
 			Home
 		</div>
+	</a>
+	<a href="#about">
 		<div class="list">
 			About
 		</div>
+	</a>
+		<a href="#feat">
 		<div class="list">
 			Features
 		</div>
+	</a>
+	<a href="#gest">
+		<div class="list">
+			Gestures
+		</div>
+	</a>
 	</div>
 	<div id='padder'></div>
-	<div class='player'>
+	<div class='player' id='player'>
 	</div>
-	<div class="menu">
+	<div class="menu" id='feat'>
 		FEATURES
 		<br>
 		<div class="scroller">
@@ -67,10 +81,10 @@
 	</div>
 </div>
 <div class="blank">
-	<div class='about'>ABOUT</div>
+	<div class='about' id='about'>ABOUT</div>
 <div class="slide1">
 	<div class="align_slide1">
-		<img src=chip.png style="max-height: 100%; max-width: 100%;">
+		<img src=0120.png style="max-height: 100%; max-width: 100%;">
 	</div>
 	<div class="declign_slide1">
 		
@@ -80,17 +94,17 @@
 </div>
 <div class="slide1">
 	<div class="align_slide1" style='float: left;'>
-		<img src=chip.png style="max-height: 100%; max-width: 100%;">
+		<img src=0120.png style="max-height: 100%; max-width: 100%;">
 	</div>
 	<div class="declign_slide1" style="float: right;">
 		
-			APTYRIX incorporates the entire sensor and antenna array into an ultra-compact 8mm x 10mm package.
+			APTYRIX recognizes your motion faster than your mouse.
 		
 	</div>
 </div>
 </div>
 <div class='RedTube'>
-	<div class='about' style="	margin-bottom: 20px;">Multi-media Gestures</div>
+	<div class='about' id='gest' style="margin-bottom: 20px;">Multi-media Gestures</div>
 	<div class="pvideos" id = 'play'>
 	</div>
 	<div class="pvideos" id= 'pause'>
@@ -99,20 +113,20 @@
 	</div>
 	<div class="pvideos" id='forward'>
 	</div>
-	<div class="pvideos" id='swiperight'>
-	</div>
-	<div class="pvideos" id='swipeleft'>
 	</div>
 </div>
 <div class="supCon">
 <div class="contact">
-	Contact US
-	<form>
+	Subscribe
+	<form id='disable' action="#" method="get	">
 		<input type="text" id='text' placeholder="Name">
-		<input type="text" id='texta' placeholder="Email-ID">
+		<input type="text" id='texta' placeholder="Email-ID" id='mail'>
 		<button id='btn' style="font-weight: 100; border-radius: 10px; cursor: pointer;">Subscribe</button>
 	</form>
 </div>
+</div>
+<div class="end">
+	Made with  ❤  from eXEC
 </div>
 </body>
 </html>
