@@ -1,0 +1,147 @@
+<html>
+<head>
+	<title>APTYRIX</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#padder').css('margin-top',($('.navbar').height()+'px'))
+		});
+	</script>
+</head>
+<body>
+	<div class="navbar">
+		<div class="list" style="float: left; font-weight: 500;">
+			<img src='0120.png' height="30px">PTYRIX
+		</div>
+	<a href="#player">
+		<div class="list">
+			Home
+		</div>
+	</a>
+	<a href="#about">
+		<div class="list">
+			About
+		</div>
+	</a>
+		<a href="#feat">
+		<div class="list">
+			Features
+		</div>
+	</a>
+	<a href="#gest">
+		<div class="list">
+			Gestures
+		</div>
+	</a>
+	<a href="#sim" width="200px">
+		<div class="list" style="width: 200px; text-align: center; background-color: rgb(200,100,110)">
+			Simulator
+		</div>
+	</a>
+	</div>
+	<div id='padder'></div>
+	<div class='player' id='player'>
+		<iframe width="100%" height="100%" src="https://www.youtube.com/embed/kZOfYo4JDIw" modestbranding="0"; loop="1" controls="1" frameborder="0" rel="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="menu" id='feat'>
+		FEATURES
+		<br>
+		<div class="scroller">
+		<div class="strip">
+			<div class="header">
+				Snap to Unlock
+			</div>
+			<br>
+			With a snap you can unlock your devices in just a go.
+		</div>
+		<div class="strip">
+			<div class="header">
+				Play Games
+			</div>
+			<br>
+			Aptyrix has been optimized to send data faster than the FPS of your monitor.
+		</div>
+		<div class="strip">
+			<div class="header">
+				Control Home Setup
+			</div>
+			<br>
+			A snap pointing to the light, TV, etc. can toggle it.
+		</div>
+		<div class="strip">
+			<div class="header">
+				Multi-media devices at your Hands
+			</div>
+			<br>
+			Using your finger gestures you can PAUSE, PLAY and FAST FORWARD a video.
+		</div><div class="strip">
+			<div class="header">
+				Ultra Capacitor
+			</div>
+			<br>
+			With an ultra capictor APTYRIX can run for 60 days without charge
+		</div>
+	</div>
+</div>
+<div class="blank">
+	<div class='about' id='about'>ABOUT</div>
+<div class="slide1">
+	<div class="align_slide1">
+		<img src=0120.png style="max-height: 100%; max-width: 100%;">
+	</div>
+	<div class="declign_slide1">
+		
+			APTYRIX incorporates the entire sensor and antenna array into an ultra-compact 8mm x 10mm package.
+		
+	</div>
+</div>
+<div class="slide1">
+	<div class="align_slide1" style='float: left;'>
+		<img src=0120.png style="max-height: 100%; max-width: 100%;">
+	</div>
+	<div class="declign_slide1" style="float: right;">
+		
+			APTYRIX recognizes your motion faster than your mouse.
+		
+	</div>
+</div>
+</div>
+<div class='RedTube'>
+	<div class='about' id='gest' style="margin-bottom: 20px;">Multi-media Gestures</div>
+	<div class="pvideos" id = 'play'>
+	</div>
+	<div class="pvideos" id= 'pause'>
+	</div>
+	<div class="pvideos" id='backward'>
+	</div>
+	<div class="pvideos" id='forward'>
+	</div>
+	</div>
+</div>
+<a href='HandModelling/index.html'>
+<div class="supCon" id='sim'>
+<div class="contact" style="background-color: rgb(200,100,110)">
+	
+Live Simulator also available at <a href='HandModelling/index.html'>Here</a>
+Use Desktop/Laptop for this to work perfectly.
+</div>
+</div>
+</a>
+<div class="supCon">
+<div class="contact">
+	Subscribe
+	<form id='disable' action="#" method="get">
+		<input type="text" id='text' placeholder="Name">
+		<input type="text" id='texta' placeholder="Email-ID" id='mail'>
+		<button id='btn' style="font-weight: 100; border-radius: 10px; cursor: pointer;">Subscribe</button>
+	</form>
+</div>
+</div>
+<div class="end">
+	Made with  ❤  from eXEC
+</div>
+</body>
+</html>
