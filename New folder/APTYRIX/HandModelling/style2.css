@@ -1,0 +1,164 @@
+
+.window{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #99AAB5;
+}
+#tridiv{
+	z-index: 3;
+}
+.form{
+
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	background-repeat: no-repeat;
+    background-image: url(back.jpg);
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-size: cover;
+}
+.bbar{
+	z-index: 10;
+	position: fixed;
+	top: calc(90% + 5% - 40px);
+	height: 40px;
+	width: 90%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	left: 5%;
+	background-color: rgba(0,0,0,0.9);
+
+}
+.soft{
+	margin-left: 3px;
+	margin-right: 3px;
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.vbar{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+	height: 130px;
+    width: 60px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    left: calc(5% + 20px);
+    position: fixed;
+    top: calc(5% + 50px);
+    z-index: 11;
+}
+.volume{
+	transition: background-image 2s ease;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border: 0.5px solid;
+	background-image: linear-gradient(rgba(255,255,255,0.7) 50%, rgb(110,100,255) 50%);
+	height: 80%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 20px;
+	border-radius: 5%;	
+	margin-left: 20px;
+}
+.brbar{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	z-index: 10;
+	height: 130px;
+    width: 60px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    left: calc(90% - 20px);
+    position: fixed;
+    top: calc(5% + 50px);
+}
+.br{
+	transition: background-image 2s ease;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border: 0.5px solid;
+	background-image: linear-gradient(rgba(255,255,255,0.7) 50%, rgb(110,100,255) 50%);
+	height: 80%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 20px;
+	border-radius: 5%;	
+	margin-left: 20px;
+}
+.app1{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: fixed;
+	width: 40%;
+	height: 50%;
+	margin-left: 5%;
+	margin-top: 10%;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-image: linear-gradient(rgb(220,100,100) 10%,rgba(255,255,255,0.7) 10%);
+	z-index: 6;
+}
+.app2{
+	z-index: 5;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	width: 60%;
+	height: 40%;
+	margin-left: 20%;
+	margin-top: 5%;
+	position: fixed;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-image: linear-gradient(rgb(220,100,100) 10%,rgba(255,255,255,0.7) 10%);
+}
+.vexp{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+.grid{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-color: pink;
+}
+.bri{
+	z-index: 100;
+	background-color: black;
+	opacity: 0.7;
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    border-radius: 20px;
+    background-size: cover;
+}
+.nope{
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 0px 0px 2000000px rgba(0,0,0,0);
+}
+.cursor{
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: white;
+	z-index: 20000;
+	border: 2px black solid;
+}
