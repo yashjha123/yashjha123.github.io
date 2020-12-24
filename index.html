@@ -3,10 +3,17 @@
 	<title>Hello I am Yash Jha!</title>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		div.center.coded{
+			background-color: white;
+			color: white;
+		}
+	</style>
 </head>
+
 <body>
 	<div class="center">
-		<h1>The Site is under construction, visit later for updates</h1>
+		<h1 id="txt">The Site is under construction, visit later for updates</h1>
 	</div>	
 	<section>
         <div id="particles-js">
@@ -19,5 +26,28 @@
 	<script>
         particlesJS.load('particles-js', 'particles.json', function() {console.log("Particles json loaded...")})
     </script>
+    <script type="text/javascript">
+    	const copyToClipboard = str => {
+    	console.log("coping!!")
+		  const el = document.createElement('textarea');
+		  el.value = code;
+		  document.body.appendChild(el);
+		  el.select();
+		  document.execCommand('copy');
+		  // document.body.removeChild(el);
+		};
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);	
+		const code = urlParams.get('code')
+		if(code!=null){
+			center = document.querySelector("#txt");
+			center.innerHTML=code;
+
+			center.style.backgroundColor = "white";
+			center.style.color = "black";
+			
+			// copy(code);
+		}
+	</script>
 </body>
 </html>
