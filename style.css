@@ -13,6 +13,7 @@ body,html{
 	justify-content: center;
 }
 h1{
+	max-width: 100%;
 	padding: 0;
 	margin: 0;
 	font-size: 50px;
