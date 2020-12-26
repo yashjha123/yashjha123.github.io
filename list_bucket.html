@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="navigation"></div>
+	<div id="listing"></div>
+
+	<!-- add jQuery - if you already have it just ignore this line -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- https://fiitjee-classes-thumbnails.s3.ap-south-1.amazonaws.com/140a1b8d-4de3-41a3-aa3a-8cbc8f0739d6-1.jpg -->
+	<!-- the JS variables for the listing -->
+	<script type="text/javascript">
+	  var S3BL_IGNORE_PATH = true;
+	  var BUCKET_NAME = 'fiitjee-classes-thumbnails';
+	  var BUCKET_URL = 'https://fiitjee-classes-thumbnails.s3.ap-south-1.amazonaws.com';
+	  var S3B_ROOT_DIR = '/';
+	  var S3B_SORT = 'DEFAULT';
+	  var EXCLUDE_FILE = 'index.html';  // change to array to exclude multiple files
+	  var AUTO_TITLE = true;
+	  var S3_REGION = 'ap-south-1'; // for us-east-1
+	</script>
+
+	<!-- the JS to the do the listing -->
+	<script type="text/javascript" src="list.js"></script>
+</body>
+</html>
